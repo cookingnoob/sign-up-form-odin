@@ -4,12 +4,24 @@ body{
 .photo-vertical{
     background-color: antiquewhite;
 }
-
-.form-area {
-    display: flex;
-    flex-direction: ;
+form{
+    margin-left: 30px;
 }
-.form-header{
+.form-area {  /*parent container*/
     display: flex;
-    flex: 1
+    flex-direction: column;
+    height: 100%;
+}
+.form-header { /*top container*/
+    flex: 1;
+}
+.form-container {/*bottom container*/
+    display: flex;
+    flex: 1;
+}
+.form-container-left {
+    flex: 1;
+}
+.form-container-right {
+    flex: 1;
 }
